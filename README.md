@@ -12,3 +12,8 @@ Java处理url\md5\base64编码案例 -基于Java
         System.out.println(urlCodec.encode(url));
     }
 ```
+```java
+oldstr="您好";
+Base64.Encoder encoder = Base64.getEncoder();//Base64在java.untl包下
+String newstr = encoder.encodeToString(oldstr.getBytes("utf-8"));
+```
